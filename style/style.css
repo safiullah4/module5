@@ -9,9 +9,10 @@
     padding: 0;
 }
 #hero{
-    background-color: tomato;
-    background-image: url("/assets/hero-bg.png");
-    height: 730px;
+        /* bg image and akta blakish absa color image er shate mergre korte background property te (color,url) e khetre linear gradient diye koto percent coler upore na niche agula control kora jay*/
+        background: linear-gradient(0deg, rgb(9, 9, 9) 2.884%,rgba(16, 16, 16, 0) 101.034%),url("/assets/hero-bg.png");
+    /* 738/913=.8 913*.8=730*/
+    height: 820px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -23,7 +24,66 @@
     align-items: center;
 }
 .hero-content{
+
     width: 818px;
     /* div er text gula left right e auto margin diye maje neua jay
     margin: 0 auto; */
+}
+
+.subTitle {
+/* width: 214px;
+height: 29.52px; */
+opacity: 0.8;
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 12px;
+}
+
+#hero .hero-content .title{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 51px;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 17px;
+}
+
+
+.description{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 14.4px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-bottom: 22px;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+
+.button{
+    border: none;
+border-radius: 8px;
+background: rgb(82, 195, 3);
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 14px;
+font-weight: 600;
+padding: 15px 19px 15px 19px;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+
 }
