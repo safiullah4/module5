@@ -3,3 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*font-family: "Work Sans", serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    background-image: url("/assets/hero-bg.png");
+    height: 919px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-content{
+    width: 205px;
+}
