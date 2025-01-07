@@ -9,12 +9,21 @@
     padding: 0;
 }
 #hero{
+    background-color: tomato;
     background-image: url("/assets/hero-bg.png");
-    height: 919px;
+    height: 730px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    /* hero ontent ke flexible akta box korar jonno parent hero ke flex korbo */
+    display:flex ;
+    /* upor theke maje */
+    justify-content: center;
+    /* pash theke enter */
+    align-items: center;
 }
 .hero-content{
     width: 818px;
+    /* div er text gula left right e auto margin diye maje neua jay
+    margin: 0 auto; */
 }
