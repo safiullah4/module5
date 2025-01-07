@@ -23,14 +23,16 @@
     /* pash theke enter */
     align-items: center;
 }
-.hero-content{
+#hero .hero-content{
 
     width: 818px;
     /* div er text gula left right e auto margin diye maje neua jay
     margin: 0 auto; */
 }
 
-.subTitle {
+/* jokhon akshate onek gula page likha hoy tokhon bolte hoy avabe- #hero .hero-content .subTitle je jodi hero er vitore hero-conainer thake and tar vitore subtitle thake tahole tar upor ai css gula hobe jekono subtitle class er upor na */
+
+#hero .hero-content .subTitle {
 /* width: 214px;
 height: 29.52px; */
 opacity: 0.8;
@@ -56,7 +58,7 @@ margin-bottom: 17px;
 }
 
 
-.description{
+#hero .hero-content .description{
 color: rgb(255, 255, 255);
 font-family: Work Sans;
 font-size: 14.4px;
@@ -68,7 +70,7 @@ opacity: 0.7;
 margin-bottom: 22px;
 }
 
-.btn-container{
+#hero .hero-content .btn-container{
     text-align: center;
 }
 
@@ -85,5 +87,102 @@ padding: 15px 19px 15px 19px;
 line-height: 16px;
 letter-spacing: 0%;
 text-align: center;
+cursor: pointer;
+}
 
+
+#card-box{
+    width: 910px;
+    margin: 110px auto;
+}
+
+#card-box .info{
+margin-bottom: 32px;
+}
+
+#card-box .info .title{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+#card-box .info .subtitle{
+    opacity: 0.6;
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.mini-card-container{
+    width: 910px;
+    height: 810px;
+    width: 100%;
+    margin-top: 37px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: Work Sans;
+}
+.mini-card{
+    max-width: 250px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card-image img{
+    width: 100%;
+}
+.card-name{
+    padding: 10px 19px 10px 19px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+.card-name span{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.description{
+color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+}
+
+.card-btn{
+    border-radius: 8px;
+    padding: 14px 19px 14px 19px;
+background: rgb(82, 195, 3);
+cursor: pointer;
+}
+.card-btn button{
+    border: none;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 13.5px;
+font-weight: 600;
+line-height: 15px;
+letter-spacing: 0%;
+text-align: center;
 }
